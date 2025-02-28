@@ -1,0 +1,27 @@
+.container
+{
+    display:flex;
+    flex-direction: row;
+}
+.sidebar
+{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    height:100vh;
+    background-color:white;
+    border-radius:25px;
+    
+   
+}
+.content
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height:100vh;
+    background-color:ghostwhite;
+    border-radius:20px;
+}

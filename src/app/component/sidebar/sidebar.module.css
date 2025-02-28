@@ -1,0 +1,6 @@
+.active {
+    background-color: #3498db; /* Active background color */
+    color: white;  /* Text color when active */
+    border: 2px solid #2980b9; /* Border around the active link */
+    font-weight: bold; /* Bold text for active link */
+  }
