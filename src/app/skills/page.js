@@ -9,11 +9,11 @@ function Skills() {
     <>
      <div>
       <h3 style={{fontWeight:600}}>Skills and  Expertise</h3>
-      <h6 >Front End</h6>
+      <h6 style={{margin:"10px"}}>Front End</h6>
       <div style={{display:"flex",flexDirection:"column", justifyContent:"space-between"}}>
         <div style={{display:"flex",margin:"10px"}}>
         <div style={{width:"25vw"}}>
-        <Card style={{margin:"10px"}}>
+        <Card style={{margin:"10px"}} className="shadow-lg">
         <Card body>
          <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
          <p>Angular</p>
@@ -24,7 +24,7 @@ function Skills() {
       </Card>
       </div>
       <div style={{width:"25vw"}}>
-      <Card style={{margin:"10px"}}>
+      <Card style={{margin:"10px"}} className="shadow-lg">
         <Card body>
          <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
          <p>React</p>
@@ -37,18 +37,18 @@ function Skills() {
         </div>
         <div style={{display:"flex",margin:"10px"}}>
         <div style={{width:"25vw"}}>
-      <Card style={{margin:"10px"}}>
+      <Card style={{margin:"10px"}} className="shadow-lg">
         <Card body>
          <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
          <p>Next JS</p>
          <p>75%</p>
          </div>
           <ProgressBar animated variant="info" now={75} label="75%" />
-        </Card >
+        </Card>
       </Card>
       </div>
       <div style={{width:"25vw"}}>
-      <Card style={{margin:"10px"}}>
+      <Card style={{margin:"10px"}} className="shadow-lg">
         <Card body>
          <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
          <p>Ionic</p>
@@ -62,7 +62,7 @@ function Skills() {
         </div>
         <div style={{display:"flex",margin:"10px"}}>
         <div style={{width:"25vw"}}>
-      <Card style={{margin:"10px"}}>
+      <Card style={{margin:"10px"}} className="shadow-lg">
         <Card body>
          <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
          <p>Chrome Extensions</p>
