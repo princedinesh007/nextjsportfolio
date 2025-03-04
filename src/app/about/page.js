@@ -8,10 +8,16 @@ function About() {
     <div className={sytles.container}>
     <h3>About Me</h3>
     <div className={sytles.container1}>
-      <div  style={{margin:"10px"}}>
+      <div  style={{margin:"5px"}}>
       <Card className={sytles.card_main} shadow-lg>
-      <h5 className={sytles.subtitle}>As a frontend developer, I specialize in building user-friendly websites and applications using popular technologies like Angular, React, and Next.js. I focus on creating smooth, responsive designs that work seamlessly across all devices and browsers. My goal is to deliver clean, fast, and efficient web applications that provide great user experiences. 
-        With my expertise in these frameworks, I strive to create applications that are both functional and easy to use</h5>
+      <h5 className={sytles.subtitle} style={{color:"blue",fontWeight:300}}>
+        <li>As a frontend developer, I specialize in building user-friendly websites and applications using popular technologies like Angular, React, and Next.js.</li> 
+        <li>I focus on creating smooth, responsive designs that work seamlessly across all devices and browsers. </li>
+        <li>My goal is to deliver clean, fast, and efficient web applications that provide great user experiences.</li> 
+        <li>
+        With my expertise in these frameworks, I strive to create applications that are both functional and easy to use
+        </li>
+        </h5>
       
       </Card>
       </div>
