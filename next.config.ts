@@ -3,8 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: ['clipart-library.com'], // Add the domain here
+    
+     // Add the domain here
   },
+  output: 'export',
 };
 
 export default nextConfig;
